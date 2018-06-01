@@ -79,6 +79,7 @@ section.data {
     flex: 1;
     margin: 20px;
 }
+
 .imputs {
     width: -webkit-fit-content;
     width: -moz-fit-content;
