@@ -39,13 +39,15 @@ header{
     text-align: center;
 }
 main {
+    display: flex;
+    flex-wrap: wrap;
     margin: 20px auto;
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
     /*flex-grow, flex-shrink, flex-basis*/
     margin-bottom: 30px;
-    padding: 0 15px
+    padding: 0 15px;
 }
 
 h1 {
@@ -73,6 +75,10 @@ section.data {
     line-height: 2;
 }
 
+.images__box{
+    flex: 1;
+    margin: 20px;
+}
 .imputs {
     width: -webkit-fit-content;
     width: -moz-fit-content;
